@@ -1,0 +1,24 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+#define pi 3.141597
+
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+
+int main(int argc, char *argv[]) {
+	
+	float r, area, r2;
+	
+	printf ("Insira o raio R do circulo: ");
+	scanf("%f" ,&r);
+	
+	r2 = pow(r,2);
+	r2 = r*r;
+	area = pi*r2;
+	area = pi *(r*r);
+    area = M_PI * pow(r,2);
+    
+    
+	printf("A Area do circulo de raio R %.0f = %f", r, area);
+	return 0;
+}
