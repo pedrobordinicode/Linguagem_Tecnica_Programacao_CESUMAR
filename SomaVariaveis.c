@@ -1,14 +1,14 @@
-using System; 
+#include <stdio.h>
 
-class URI {
+int main() {
+    int a, b, x;
 
-    static void Main(string[] args) { 
+    scanf("%d", &a);
+    scanf("%d", &b);
 
-       int a = int.Parse(Console.ReadLine());
-        int b = int.Parse(Console.ReadLine());
-        int x = a + b;
-        Console.WriteLine("X = " + x);
+    x = a + b;
 
-    }
+    printf("X = %d\n", x);
 
+    return 0;
 }
