@@ -1,12 +1,13 @@
-using System; 
+#include <stdio.h>
 
-class URI {
+int main() {
+    double raio, area;
 
-    static void Main(string[] args) { 
+    if (scanf("%lf", &raio) == 1) {
+        area = 3.14159 * raio * raio;
 
-        double raio = double.Parse(Console.ReadLine());
-        double area = 3.14159 * raio * raio;
-          Console.WriteLine("A=" + area.ToString("F4"));
+        printf("A=%.4f\n", area);
     }
 
+    return 0;
 }
