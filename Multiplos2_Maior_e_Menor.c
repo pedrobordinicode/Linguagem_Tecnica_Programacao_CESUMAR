@@ -11,21 +11,20 @@ int main(int argc, char *argv[]) {
 		if (a%2 == 0 && b%2 == 0){
 			printf("sao multiplos de 2\n");
 		}else{ printf("nao sao multiplos de 2\n");}
-		if(a>b) /* caso a seja maior que b*/{
+		if(a>b) {
 			if (a%b){
 			printf("nao sao multiplos entre si\n");
 			}else{
 			printf("sao multiplos entre si\n");}
-			//^^^^^^ para a maior que b^^^^^^//	
 			}
-		else /* caso b seja maior que a*/{
+		else {
 			if (b%a){
 			printf("nao sao multiplos entre si\n");
 			}else{
 			printf("sao multiplos entre si\n");}
-		} /*^^^^^^ para b maior que a ^^^^^^*/
+		} 
 
-	}else /* caso nao sejam positivos*/{
+	}else {
 			if(a>b){
 				printf("%d eh maior que %d\n", a,b);
 			}else{
