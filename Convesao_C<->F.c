@@ -6,7 +6,7 @@ int main() {
 	float numero;
 	float conversao;
 	
-	printf("Para qual escala voce quer converter e qual o valor? \n(C)elsius ou (F)ahrenheit: "); /* pedir escala e analisar primeira letra */
+	printf("Para qual escala voce quer converter e qual o valor? \n(C)elsius ou (F)ahrenheit: "); 
 	scanf("%c %f" ,&escala,&numero);
 
 	if (escala == 'f' || escala == 'F'){
